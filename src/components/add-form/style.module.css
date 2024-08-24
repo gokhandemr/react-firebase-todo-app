@@ -1,0 +1,37 @@
+.addFormWrapper {
+    background: #00000070;
+    padding: 24px;
+    margin-bottom: 36px;
+}
+
+.addFormWrapper .title {
+    color: #dededead;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.addFormWrapper form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addFormWrapper input {
+    width: 84%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background: #d5d5d5;
+}
+
+.addFormWrapper button {
+    width: 15%;
+    padding: 12px;
+    background: #9271de6e;
+    border: none;
+    color: lightgrey;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}

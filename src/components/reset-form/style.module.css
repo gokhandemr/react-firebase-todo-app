@@ -1,0 +1,38 @@
+.resetFormWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #03030375;
+    padding: 0 12px;
+    border-radius: 4px;
+}
+
+.resetFormWrapper>:nth-child(1) {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.resetFormWrapper label {
+    margin-right: 12px;
+    color: whitesmoke;
+}
+
+.resetFormWrapper input {
+    width: -webkit-fill-available;
+    padding: 12px;
+    margin: 24px 0;
+    background: #ffffffbf;
+    border-radius: 4px;
+    border: none;
+}
+
+.resetFormWrapper button {
+    background-color: #ca9aed;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 48px;
+    margin-right: 8px;
+}

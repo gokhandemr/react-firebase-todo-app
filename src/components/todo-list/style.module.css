@@ -1,0 +1,59 @@
+.todosList {
+    width: 100%;
+    background: #00000070;
+    padding: 24px;
+}
+
+.todoCompleted {
+    text-decoration: line-through;
+}
+
+.todosList h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.219);
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.todosList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    background: #00000042;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.todosList li:last-child {
+    margin: 0;
+}
+
+.todosList li p {
+    width: 48ch;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #ffffff96;
+}
+
+.completeButton {
+    margin-right: 12px;
+    background: mediumpurple;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #390a69;
+    cursor: pointer;
+}
+
+.deleteButton {
+    background: #c1717159;
+    border: none;
+    color: #9f4949;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}

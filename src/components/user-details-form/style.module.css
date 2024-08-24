@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    margin: 24px 0 48px 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: #0000003b;
+    padding: 12px;
+}
+
+.wrapper .formWrapper {
+    color: black;
+}
+
+.wrapper p,
+.formWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(212, 212, 212);
+    margin: 8px 0;
+}
+
+.wrapper .detailsTitle {
+    margin-right: 48px;
+    display: inline-flex;
+    width: 152px;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+
+.wrapper p button {
+    padding: 4px 12px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #4c3378;
+    color: #7842d7;
+    border-radius: 4px;
+}
